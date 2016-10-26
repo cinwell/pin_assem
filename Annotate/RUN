@@ -1,0 +1,6 @@
+gcc -m32 -S anno.c
+gcc -m32 -c anno.c
+objdump -d anno.o > mc
+make
+objdump -d ANNO > mc2
+
